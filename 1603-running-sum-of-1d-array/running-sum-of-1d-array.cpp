@@ -14,7 +14,3 @@ public:
         return runSum;
     }
 };
-
-// can be solved using in-place array conversion
-
-// algo = nums[i]=nums[i]+nums[i-1] or nums[i]+=nums[i-1];
