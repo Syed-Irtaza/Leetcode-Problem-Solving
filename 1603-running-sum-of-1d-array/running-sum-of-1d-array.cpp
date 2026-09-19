@@ -9,8 +9,8 @@ public:
 
             sum = runSum[i] + nums[i + 1];
             runSum[i + 1] = sum;
+            
         }
-
         return runSum;
     }
 };
